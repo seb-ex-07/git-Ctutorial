@@ -13,7 +13,7 @@ int main () {
     /* integer: i declared it as age 17 with a unique name "taon" 
     it's variable name*/
 
-    printf ("I am %d years old todasay\n", taon); // print age variable "taon" 
+    printf ("I am %d years old today\n", taon); // print age variable "taon" 
     printf ("the year currently now is %d \n", year);
     printf ("thank you for getting %d squishy's today \n", item);
 
@@ -78,7 +78,7 @@ int main () {
      
 
     if(isOnline){
-        printf ("You are online\n");
+        printf ("You are Online\n");
         printf ("Please turn on WIFI\n");
 
     }

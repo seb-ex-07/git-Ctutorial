@@ -18,7 +18,7 @@ int main(void)
     printf ("C IS FUN! (heheheheheheheheheh, hindi...)");
 
 
-    printf ("Hello! I am %s, nice to know you!\n", name);
+    printf ("Hello! I am %s, nice to meet you!\n", name);
     printf ("I am almost %d years old.\n ", age);
 
 
