@@ -10,7 +10,7 @@ int main(void)
     scanf ("%i", &age);
     printf("WOW YOU ARE %i years old!\n", age);
     printf ("may you be %i years moree!\n", age);
-    printf ("may your head be at peace 1991\n");
+    printf ("may your head be at 1991\n");
 
 
     return 0;
