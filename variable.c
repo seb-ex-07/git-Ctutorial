@@ -78,7 +78,7 @@ int main () {
      
 
     if(isOnline){
-        printf ("You are Online\n");
+        printf ("You are online\n");
         printf ("Please turn on WIFI\n");
 
     }
