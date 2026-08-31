@@ -5,7 +5,7 @@ int main ()
 { 
 
     int x = 10;
-    int y = 89000;
+    int y = 80;
 
     printf ("ANSWER: %d ", x+y);
 
