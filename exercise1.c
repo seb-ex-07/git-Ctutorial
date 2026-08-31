@@ -15,15 +15,16 @@ int main ()
     int h; 
     int i;
     int j;
+    int k;
 
     int sum;
     float result;
 
     printf ("INPUT SCORES: \n");
-    scanf ( "%d %d %d %d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &g, &h, &i, &j);
+    scanf ( "%d %d %d %d %d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &g, &h, &i, &j, &k);
     
-    sum = a+b+c+d+e+f+g+h+i+j;
-    result = (float)sum /10;
+    sum = a+b+c+d+e+f+g+h+i+j+k;
+    result = (float)sum /11;
 
     printf ("TOTAL: %d\n", sum);
     printf ("AVERAGE: %.3f\n", result);
