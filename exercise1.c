@@ -10,17 +10,25 @@ int main ()
     int c;
     int d;
     int e;
+    int f;
+    int g;
+    int h; 
+    int i;
+    int j;
+
     int sum;
     float result;
 
     printf ("INPUT SCORES: \n");
-    scanf ( "%d %d %d %d %d", &a, &b, &c, &d, &e);
+    scanf ( "%d %d %d %d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &g, &h, &i, &j);
     
-    sum = a+b+c+d+e;
-    result = (float)sum /5;
+    sum = a+b+c+d+e+f+g+h+i+j;
+    result = (float)sum /10;
 
     printf ("TOTAL: %d\n", sum);
-    printf ("RESULT: %.2f\n", result);
+    printf ("AVERAGE: %.3f\n", result);
+
+    
     
 
 
