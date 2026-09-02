@@ -30,8 +30,6 @@ int main ()
     printf ("AVERAGE: %.3f\n", result);
 
     
-    
-    
 
 
 
