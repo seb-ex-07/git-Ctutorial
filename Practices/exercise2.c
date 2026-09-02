@@ -6,25 +6,32 @@ int main (void)
 
     int x;
     int y;
+    int z;
 
-    printf ("Enter two numbers:\n");
-    scanf ("%i %i", &x, &y);
 
-    if (x > y)
+    printf ("Enter 3 numbers:\n");
+    scanf ("%i %i %i", &x, &y, &z);
+
+    if (x > y && x > z)
         {
-        printf ("%i is Bigger than %i!", x, y);
+        printf ("%i is Bigger than %i and %i!", x, y, z);
         }
-    else if (x < y)
+    else if (y > x && y > z)
         {
-        printf ("%i is bigger than %i!", y, x);
+        printf ("%i is bigger than %i and %i!", y, x, z);
+        }
+    else if (z > x && z > y)
+        {
+            printf ("%i is bigger than %i and %i!", z, x, y);
         }
     else
         {
-        printf ("Both numbers are the same!");
+        printf ("All numbers are the same!");
         }
 
 
-    
+    return 0;
+
 }
 
 
