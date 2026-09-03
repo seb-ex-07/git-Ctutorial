@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/* working grade calculatorrr lezzgoooo
+simple tho, will improve it soon with UI/UX*/
+
 
 int main ()
 { 
@@ -35,11 +38,6 @@ int main ()
 
     return 0;
 }  
-
-
-
-
-
 
 
 

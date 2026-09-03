@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* this program is exercise on choosing between three humbers
+whether they are bigger than each other*/
 
 int main (void)
 {
