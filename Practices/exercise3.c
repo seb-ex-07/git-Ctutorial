@@ -6,8 +6,6 @@ still going to imrove*/
 int main (void)
 {
 
-
-
     char C;
     printf ("Is it right or wrong?? (Y/N):\n");
 
