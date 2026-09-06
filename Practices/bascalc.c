@@ -63,19 +63,13 @@ int main (void)
     {
 
     }
-        printf ("Do you want to continue? (Y/N):\n");
+    printf ("Do you want to continue? (Y/N):\n");
         scanf (" %c", &desi);
+    
+    }
+    
 
         printf ("Thank you for using BasCalc!\n");
-
-
-
-
-
-
-
-    }
-
 
 
 }
