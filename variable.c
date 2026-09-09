@@ -55,7 +55,7 @@ int main () {
 
     char name[] = "Sebastian";
     char food[] = "Siomai Rice";
-    char email[] = "myemail123@mail.com";
+    char email[] = "myemail123@mail.com"; 
 
 
   
