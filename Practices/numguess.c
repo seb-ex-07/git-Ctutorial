@@ -54,6 +54,7 @@ int main (void)
     printf ("Thank you  for playing Guess the number!\n");
     
 
+    
     }
 
     return 0;
