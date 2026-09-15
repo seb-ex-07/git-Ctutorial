@@ -1,0 +1,56 @@
+PSEUDOCODE NUMBER 4 
+Count how many numbers in a list are divisible by both 2 and 3
+
+START
+
+SET divisible = 0
+
+INPUT numbers
+
+place numbers on a list
+
+WHILE there are numbers on the list
+{
+    
+    Get the next number
+
+    IF number is  %2 == 0 AND number is %3 == 0, ++ divisible
+
+    END IF
+}
+
+DISPLAY the total of divisible
+
+END
+
+
+PSEUDOCODE NUMBER 5
+Compute the average of only the positive numbers in a list.
+
+START
+SET total = 0;
+SET count = 0;
+INPUT number
+PLACE the number on a list
+WHILE (there are number on a list) {
+	get the next number;
+	IF(number > 0) {
+		total = number + total;
+		count++;
+	}
+}
+IF (count > 0) {
+	average = total/count;
+	OUTPUT average;
+}
+ELSE {
+OUTPUT “no positive numbers”;
+}
+ 
+
+END
+    
+
+
+
+
