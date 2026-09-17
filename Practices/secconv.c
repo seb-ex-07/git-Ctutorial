@@ -38,17 +38,6 @@ int main (void)
     printf ("That is %d hours, %d minutes and %d seconds!\n", hrs, min, sec);
 
 
-
-
-
-
- 
-
-
-
-
-
-
-
+    return 0;
 
 }
