@@ -17,15 +17,15 @@ int main (void)
 
     printf ("WELCOME TO GRAVITY CALC!\n");
     printf ("Please enter the weight in Earth (in kg): ");
-    scanf ("%f", earthW);
+    scanf ("%f", &earthW);
 
     float marsW = earthW * 0.38;
     float moonW = earthW * 0.165;
     float jupiterW = earthW * 2.34;
 
-    printf ("Weight in Mars: %.3fkg\n", marsW);
-    printf ("Weight in Moon: %.3fkg\n", moonW);
-    printf ("Weight in Jupiter: %.3fkg\n", jupiterW);
+    printf ("Weight in Mars: %.2fkg\n", marsW);
+    printf ("Weight in Moon: %.2fkg\n", moonW);
+    printf ("Weight in Jupiter: %.2fkg\n", jupiterW);
     printf ("\n");
     printf ("THANK YOU FOR USING GRAVCALC!");
 
