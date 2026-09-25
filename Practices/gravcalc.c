@@ -9,6 +9,7 @@ INPUT: earth weight in kg
 PROCESS: use formulas for conversion
 OUTPUT: display the weights in the gravity of mars, moon, and jupiter*/
 
+
 int main (void)
 {
 

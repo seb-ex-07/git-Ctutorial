@@ -12,6 +12,7 @@ PROCESS: calculate the total bill and shares between the number of people using
 formulas
 OUTPUT: displays the total bill and the share of each person equally*/
 
+
 int main (void)
 {
 

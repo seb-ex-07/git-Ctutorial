@@ -12,6 +12,7 @@ and modulo (%) for this program to determine the change
 and the numbers of the bills to be displayed
 OUTPUT: the change and the number of bills that sums up to the change*/
 
+
 int main (void)
 {
 
