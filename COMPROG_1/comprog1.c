@@ -1,4 +1,8 @@
-#include <stdio.h>
+// SEBASTIAN DANIEL ALIPIO | BSCS-1C | STUDENT QUIZ REPORT
+
+
+/*This program accepts the student's name and 5 quiz score and total possible score, it calculates
+each quiz's percent rating and gets the overall average rating, then it displays the result in a table*/
 
 /*WELCOME TO ANOTHER COMPUTER PROGRAMMING EXERCISE!*/
 /*this program will focus on input and output formatting, focusing on string formatting, numerical alignment, and the
@@ -24,8 +28,11 @@ OUTPUT
 This includes formatting percentages to two decimal places.
 */
 
-/*This program accepts the student's name and 5 quiz score and total possible score, it calculates
-each quiz's percent rating and gets the overall average rating, then it displays the result in a table*/
+
+
+
+#include <stdio.h>
+
 
 // START
 
@@ -91,7 +98,7 @@ int main ()
     printf ("| %-5d | %5d | %5d | %5.2f%% |\n", 2, scr2, qz2, r2);
     printf ("| %-5d | %5d | %5d | %5.2f%% |\n", 3, scr3, qz3, r3);
     printf ("| %-5d | %5d | %5d | %5.2f%% |\n", 4, scr4, qz4, r4);
-    printf ("| %-5d | %5d | %5d | %5.2f%% |\n", 5, scr5, qz4, r5);
+    printf ("| %-5d | %5d | %5d | %5.2f%% |\n", 5, scr5, qz5, r5);
     printf ("----------------------------------\n");
 
     printf ("Quiz Average Rating: %.2f%%\n", average);
