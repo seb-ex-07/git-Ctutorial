@@ -45,12 +45,6 @@ report.txt:
 
 
 
-// here is the function call for the computation for the rating
-
-    float comprate (int scr, int qz)
-    {
-        return (float) scr / qz * 100;
-    }
 
 int main ()
 {
@@ -88,11 +82,11 @@ int main ()
 
     float r1, r2, r3, r4, r5;
     
-    r1 = comprate (scr1, qz1);
-    r2 = comprate (scr2, qz2);
-    r3 = comprate (scr3, qz3);
-    r4 = comprate (scr4, qz4);
-    r5 = comprate (scr5, qz5);
+    r1 = (float)scr1 / qz1 * 100;
+    r2 = (float)scr2 / qz2 * 100;
+    r3 = (float)scr3 / qz3 * 100;
+    r4 = (float)scr4 / qz4 * 100;
+    r5 = (float)scr5 / qz5 * 100;
 
     // here is the computation for the average 
     float average;
