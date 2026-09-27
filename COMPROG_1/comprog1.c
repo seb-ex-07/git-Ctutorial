@@ -95,6 +95,7 @@ int main ()
     printf ("Quiz Average Rating: %.2f%%\n", average);
 
 
+    
 
     return 0;
 }
