@@ -41,6 +41,7 @@ int main ()
     
     char stdname [100];
     int qz1, qz2, qz3, qz4, qz5, scr1, scr2, scr3, scr4, scr5; 
+    float r1, r2, r3, r4, r5;
 
     // first, asking for the proper inputs needed
 
@@ -62,8 +63,6 @@ int main ()
 
 
     // here is now the computation for computing each rating of individual quizzes 
-
-    float r1, r2, r3, r4, r5;
     
     r1 = (float)scr1 / qz1 * 100;
     r2 = (float)scr2 / qz2 * 100;
@@ -95,7 +94,7 @@ int main ()
     printf ("Quiz Average Rating: %.2f%%\n", average);
 
 
-    
+
 
     return 0;
 }
